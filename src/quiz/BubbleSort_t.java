@@ -2,7 +2,7 @@ package quiz;
 
 import java.util.Random;
 
-public class BubbleSort
+public class BubbleSort_t
 {
 	public static void main(String[] args)
 	{

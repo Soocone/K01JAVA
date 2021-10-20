@@ -3,7 +3,7 @@ package quiz;
 import java.util.Random;
 import java.util.Scanner;
 
-public class BubbleSortFunc
+public class BubbleSortFunc_t
 {
 	//전역변수 형태로 생성하여 모든 메소드에서 접근가능
 	static Random rnd = new Random();
