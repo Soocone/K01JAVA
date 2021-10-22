@@ -11,7 +11,7 @@ public class DBConnect
 		try {
 			/*
 			 JDBC 프로그래밍 절차
-			 1. 오라클용 JDBC 드라이벌르 메모리에 로드
+			 1. 오라클용 JDBC 드라이버를 메모리에 로드
 			 : new를 사용하지 않고 클래스명으로 직접 찾아서 객체를 생성한 후
 			 메모리에 로드하는 forName() 메서드를 사용한다. 메모리에 로드된
 			 드라이버가 DriverManager라는 클래스에 등록된다.
@@ -23,7 +23,7 @@ public class DBConnect
 			 ※서버환경에 따라 ip주소, 포트번호, sid는 변경될 수 있다.
 			 */
 			String url = "jdbc:oracle:thin:@localhost:1521:xe";
-			String id = "hr";
+			String id = "study";
 			String pass = "1234";
 			
 			/*
